@@ -21,7 +21,7 @@ function createGalleryCards(items) {
 
 const cardsMarkup = createGalleryCards(galleryItems);
 galleryContainer.insertAdjacentHTML("beforeend", cardsMarkup);
-console.log(galleryItems);
+
 
 new SimpleLightbox(".gallery a", {
   caption: true,
